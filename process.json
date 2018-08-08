@@ -1,0 +1,12 @@
+{
+    "name": "wjj-server",
+    "script": "app.js",
+    "cwd": "./",
+    "exec_mode": "fork",
+    "watch": true,
+    "env": {
+        "NODE_ENV": "production",
+        //"NODE_ENV": "dev",
+        "DEBUG_SDK": "yes"
+    }
+}

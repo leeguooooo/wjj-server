@@ -1,0 +1,23 @@
+{
+  "name": "wafer-node-server-demo",
+  "version": "1.0.0",
+  "description": "Wafer 服务端 Demo - Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start process.json"
+  },
+  "keywords": [],
+  "author": "CFETeam",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.16.1",
+    "morgan": "^1.7.0",
+    "qcloud-weapp-server-sdk": "latest",
+    "wafer-node-sdk": "^1.4.5"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
